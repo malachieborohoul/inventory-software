@@ -1,6 +1,6 @@
 import { Inter } from 'next/font/google'
 import '../styles/'
-// c
+// 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
