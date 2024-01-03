@@ -4,8 +4,8 @@ import SearchInput from './Search'
 
 const Header = () => {
   return (
-    <div className='bg-gray-100 h-12 flex justify-between items-center px-8'>
-        <div className='flex'>
+    <div className='bg-gray-100 h-12 flex justify-between items-center px-8 '>
+        <div className='flex gap-3'>
             <button><History className='h-5 w-5'/></button>
             <SearchInput/>
         </div>
