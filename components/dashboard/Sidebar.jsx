@@ -1,4 +1,4 @@
-import { ChevronLeft, Home, ShoppingCart } from 'lucide-react'
+import { BaggageClaim, ChevronLeft, Home, ShoppingCart } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
 
@@ -19,12 +19,13 @@ const Sidebar = () => {
                     <Home className='w-4 h-4'/>
                     <span>Home</span>
                 </Link>
-            </nav>
-
-            <nav className='flex flex-col gap-4 p-3'>
                 <Link className='flex items-center space-x-2' href="">
-                    <Home className='w-4 h-4'/>
+                    <BaggageClaim className='w-4 h-4'/>
                     <span>Inventory</span>
+                </Link>
+                <Link className='flex items-center space-x-2' href="">
+                    <ShoppingCart className='w-4 h-4'/>
+                    <span>Sales</span>
                 </Link>
             </nav>
 
