@@ -15,18 +15,18 @@ const Sidebar = () => {
            
 
             <nav className='flex flex-col gap-4 p-3'>
-                <Link className='flex items-center space-x-2' href="">
+                <button className='flex items-center space-x-2' href="">
                     <Home className='w-4 h-4'/>
                     <span>Home</span>
-                </Link>
-                <Link className='flex items-center space-x-2' href="">
+                </button>
+                <button className='flex items-center space-x-2' href="">
                     <BaggageClaim className='w-4 h-4'/>
                     <span>Inventory</span>
-                </Link>
-                <Link className='flex items-center space-x-2' href="">
+                </button>
+                <button className='flex items-center space-x-2' href="">
                     <ShoppingCart className='w-4 h-4'/>
                     <span>Sales</span>
-                </Link>
+                </button>
             </nav>
 
             <div className='flex flex-col justify-end '>
