@@ -19,31 +19,31 @@ const Sidebar = () => {
                     <Home className='w-4 h-4'/>
                     <span>Home</span>
                 </button>
-                <button className='flex items-center space-x-2' href="">
+                <button className='flex items-center space-x-2 p-2' href="">
                     <BaggageClaim className='w-4 h-4'/>
                     <span>Inventory</span>
                 </button>
-                <button className='flex items-center space-x-2' href="">
+                <button className='flex items-center space-x-2 p-2' href="">
                     <ShoppingCart className='w-4 h-4'/>
                     <span>Sales</span>
                 </button>
 
-                <button className='flex items-center space-x-2' href="">
+                <button className='flex items-center space-x-2 p-2' href="">
                     <ShoppingBag className='w-4 h-4'/>
                     <span>Purchases</span>
                 </button>
 
-                <button className='flex items-center space-x-2' href="">
+                <button className='flex items-center space-x-2 p-2' href="">
                     <Cable className='w-4 h-4'/>
                     <span>Integrations</span>
                 </button>
 
-                <button className='flex items-center space-x-2' href="">
+                <button className='flex items-center space-x-2 p-2' href="">
                     <BarChart4 className='w-4 h-4'/>
                     <span>Reports</span>
                 </button>
 
-                <button className='flex items-center space-x-2' href="">
+                <button className='flex items-center space-x-2 p-2' href="">
                     <Files className='w-4 h-4'/>
                     <span>Documents</span>
                 </button>
