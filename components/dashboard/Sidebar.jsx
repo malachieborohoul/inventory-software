@@ -14,8 +14,8 @@ const Sidebar = () => {
             </Link>
            
 
-            <nav className='flex flex-col gap-8 p-3'>
-                <button className='flex items-center space-x-2 bg-blue-600 text-slate-50 py-2.5 px-2 rounded-md' href="">
+            <nav className='flex flex-col gap-3 p-3'>
+                <button className='flex items-center space-x-2 bg-blue-600 text-slate-50 p-2 rounded-md' href="">
                     <Home className='w-4 h-4'/>
                     <span>Home</span>
                 </button>
