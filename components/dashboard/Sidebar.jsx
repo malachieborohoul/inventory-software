@@ -18,6 +18,13 @@ const Sidebar = () => {
                 </Link>
             </nav>
 
+            <nav className='flex flex-col gap-4 p-3'>
+                <Link className='flex items-center space-x-2' href="">
+                    <Home className='w-4 h-4'/>
+                    <span>Inventory</span>
+                </Link>
+            </nav>
+
             <div className='flex flex-col justify-end '>
                 <div className='bg-slate-950 flex space-x-2 items-center py-3 px-2 justify-center'>
                     <ChevronLeft/>
