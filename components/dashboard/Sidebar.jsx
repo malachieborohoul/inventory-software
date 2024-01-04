@@ -1,4 +1,4 @@
-import { BaggageClaim, BarChart, BarChart4, Cable, ChevronLeft, Home, ShoppingBag, ShoppingCart } from 'lucide-react'
+import { BaggageClaim, BarChart, BarChart4, Cable, ChevronLeft, Files, Home, ShoppingBag, ShoppingCart } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
 
@@ -41,6 +41,11 @@ const Sidebar = () => {
                 <button className='flex items-center space-x-2' href="">
                     <BarChart4 className='w-4 h-4'/>
                     <span>Reports</span>
+                </button>
+
+                <button className='flex items-center space-x-2' href="">
+                    <Files className='w-4 h-4'/>
+                    <span>Documents</span>
                 </button>
             </nav>
 
