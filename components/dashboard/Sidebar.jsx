@@ -49,8 +49,8 @@ const Sidebar = () => {
                 </button>
             </nav>
 
-            <div className='flex flex-col '>
-                <div className='bg-slate-950 flex items-center justify-center'>
+            <div className='flex flex-col justify-end '>
+                <div className='bg-slate-950 flex space-x-2 items-center py-3 px-2 justify-center'>
                     <ChevronLeft/>
                 </div>
             </div>
