@@ -11,9 +11,9 @@ const Sidebar = () => {
                 <span className='font-semibold text-xl items-center bg-slate-950'>Inventory</span>
             </div>
 
-            <nav className='flex flex-col gap-4'>
-                <Link className='flex' href="">
-                    <Home/>
+            <nav className='flex flex-col gap-4 p-3'>
+                <Link className='flex items-center space-x-2' href="">
+                    <Home className='w-4 h-4'/>
                     <span>Home</span>
                 </Link>
             </nav>
